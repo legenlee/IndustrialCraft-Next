@@ -9,3 +9,4 @@ IC2의 대부분의 기능을 구현하여 최신 버전의 마인크래프트�
 ## 번역
 
 - [영어](https://github.com/legenlee/industrialcraft-next)
+- [한국어](/i18n/README.ko.md)
