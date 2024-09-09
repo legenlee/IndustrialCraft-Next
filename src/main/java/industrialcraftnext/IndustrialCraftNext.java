@@ -1,4 +1,4 @@
-package io.legenlee.icnext;
+package industrialcraftnext;
 
 import org.slf4j.Logger;
 
@@ -35,8 +35,8 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(ICNext.MODID)
-public class ICNext
+@Mod(IndustrialCraftNext.MODID)
+public class IndustrialCraftNext
 {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "icnext";
@@ -69,7 +69,7 @@ public class ICNext
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public ICNext(IEventBus modEventBus, ModContainer modContainer)
+    public IndustrialCraftNext(IEventBus modEventBus, ModContainer modContainer)
     {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
